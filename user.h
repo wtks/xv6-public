@@ -25,6 +25,7 @@ int sleep(int);
 int uptime(void);
 int getppid(void);
 int getdate(struct rtcdate *);
+int sleep_sec(int);
 
 // ulib.c
 int stat(const char*, struct stat*);

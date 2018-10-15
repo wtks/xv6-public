@@ -184,6 +184,7 @@ UPROGS=\
 	_hello\
 	_ppidtest\
 	_date\
+	_sleepsectest\
 
 fs.img: mkfs README $(UPROGS)
 	./mkfs fs.img README $(UPROGS)
